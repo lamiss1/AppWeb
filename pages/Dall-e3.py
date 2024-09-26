@@ -13,7 +13,7 @@ Description = st.text_input("tapez votre description")
 st.sidebar.title("Lamiss Chekh")
 key = st.sidebar.text_input("tapez votre key")
 
-client =OpenAI(api_key=key)
+client = key   #OpenAI(api_key=key)
 
 
 # Testez ici plusieurs variation du prompte
