@@ -17,13 +17,13 @@ key = st.sidebar.text_input("tapez votre key")
 
 
 # Testez ici plusieurs variation du prompte
-prompt = Description
+#prompt = Description
 
 
 
 image = openai.Image.generate(
     model="dall-e-2",
-    prompt=prompt,
+    prompt=Description,
     size="512x512",
     quality="standard",
     n=1,
