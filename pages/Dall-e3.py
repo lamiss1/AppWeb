@@ -15,23 +15,7 @@ key = st.sidebar.text_input("tapez votre key")
 
 
 
-client = OpenAI(api_key=key)
 
-
-# Testez ici plusieurs variation du prompte
-prompt = Description
-
-
-
-image = client.images.generate(
-    model="dall-e-2",
-    prompt=prompt,
-    size="512x512",
-    quality="standard",
-    n=1,
-)
-
-st.image.image_url = image.data[0].url
 
 
 
