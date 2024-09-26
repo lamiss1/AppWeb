@@ -18,3 +18,7 @@ st.image("https://www.eemi.com/uploads/2023/06/sized/Campus-de-Paris-scaled-aspe
 
 st.sidebar.title("Lamiss Chekh")
 st.sidebar.video("https://www.youtube.com/watch?v=Bs4Acx_ugc4")
+
+#SelectBar
+
+student_grad= st.selectbox("  Selectionnez votre niveau d´etude", ["Bac","Bac+1","Bac+2"])
