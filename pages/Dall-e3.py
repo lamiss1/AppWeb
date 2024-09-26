@@ -1,4 +1,5 @@
 import streamlit as st 
+from openai import OpenAI
 
 st.title("Dall-e3")
 st.write ("Veuillez entrez une description de l´image ")
@@ -12,10 +13,6 @@ st.sidebar.title("Lamiss Chekh")
 key = st.sidebar.text_input("tapez votre key")
 
 
-
-
-# OpenAI pour générer des images
-from openai import OpenAI
 
 
 client = OpenAI(api_key=key)
