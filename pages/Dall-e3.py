@@ -2,15 +2,23 @@ import streamlit as st
 
 st.title("Dall-e3")
 st.write ("Veuillez entrez une description de l´image ")
-
 Description = st.text_input("tapez votre description")
+
+
+
+
+#sidebar 
+st.sidebar.title("Lamiss Chekh")
+key = st.text_input("tapez votre key")
+
+
 
 
 # OpenAI pour générer des images
 from openai import OpenAI
 
 
-client = OpenAI(api_key=OpenAIKEY)
+client = OpenAI(api_key=key)
 
 
 # Testez ici plusieurs variation du prompte
