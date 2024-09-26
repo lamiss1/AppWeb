@@ -17,3 +17,4 @@ st.image("https://www.eemi.com/uploads/2023/06/sized/Campus-de-Paris-scaled-aspe
 #sidebar 
 
 st.sidebar.title("Lamiss Chekh")
+st.sidebar.video("https://www.youtube.com/watch?v=Bs4Acx_ugc4")
