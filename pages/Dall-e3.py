@@ -13,7 +13,7 @@ Description = st.text_input("tapez votre description")
 st.sidebar.title("Lamiss Chekh")
 key = st.sidebar.text_input("tapez votre key")
 
-client = key   #OpenAI(api_key=key)
+key= OpenAI.api_key
 
 
 # Testez ici plusieurs variation du prompte
@@ -23,7 +23,7 @@ prompt = Description
 
 image = openai.Image.generate(
     model="dall-e-2",
-    prompt=prompt,
+    prompt=Description,
     size="512x512",
     quality="standard",
     n=1,
