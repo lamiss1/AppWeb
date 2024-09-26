@@ -21,7 +21,7 @@ prompt = Description
 
 
 
-image = openai.images.generate(
+image = openai.Image.generate(
     model="dall-e-2",
     prompt=prompt,
     size="512x512",
