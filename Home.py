@@ -20,5 +20,7 @@ st.sidebar.title("Lamiss Chekh")
 st.sidebar.video("https://www.youtube.com/watch?v=Bs4Acx_ugc4")
 
 #SelectBar
-
 student_grad= st.selectbox("  Selectionnez votre niveau d´etude", ["Bac","Bac+1","Bac+2"])
+
+#Select Slider 
+age = st.select_slider("Quel est votre age", range(0, 40))
