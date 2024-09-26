@@ -1,5 +1,5 @@
 import streamlit as st 
- import OpenAI
+from openai import OpenAI
 
 st.title("Dall-e3")
 st.write ("Veuillez entrez une description de l´image ")
