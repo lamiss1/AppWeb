@@ -23,7 +23,7 @@ prompt = Description
 
 image = openai.Image.generate(
     model="dall-e-2",
-    prompt=Description,
+    prompt=prompt,
     size="512x512",
     quality="standard",
     n=1,
