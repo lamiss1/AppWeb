@@ -9,7 +9,7 @@ Description = st.text_input("tapez votre description")
 
 #sidebar 
 st.sidebar.title("Lamiss Chekh")
-key = st.text_input("tapez votre key")
+key = st.sidebar.text_input("tapez votre key")
 
 
 
@@ -34,7 +34,7 @@ image = client.images.generate(
     n=1,
 )
 
-image_url = image.data[0].url
-print(image_url)
+st.image.image_url = image.data[0].url
+
 
 
